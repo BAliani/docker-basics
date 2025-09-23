@@ -146,7 +146,7 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     ports:
-      - "8080:80"
+      - "8082:80"
     networks:
       - mon-reseau
 
